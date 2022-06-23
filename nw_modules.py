@@ -12,7 +12,7 @@ credential = DefaultAzureCredential()
 
 
 def get_subs():
-    sub_client = SubscriptionClient(credential)
+    sub_client = SubscriptionClient(credential)#getting creds
     sub_group = sub_client.subscriptions.list()
     sub_list = []
     for group in sub_group:
