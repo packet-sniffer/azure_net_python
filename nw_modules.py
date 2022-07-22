@@ -32,7 +32,7 @@ def get_lb(sub_list2):
     print(res_gr_list)
 
 '''
-def get_lb_sub(sub_list2):
+def get_lb_sub(sub_list2): #still issue with the python output
     lb_list = []
     for sub in sub_list2:
         net_client = NetworkManagementClient(credential, sub)
