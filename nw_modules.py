@@ -56,11 +56,10 @@ def load_balancer_list(sub_list):
 
 
 def main():
-    if __name__ == "__main__":
-        test_list = get_subs()
-        #test_list = ['39f9beb3-6ab9-4b94-9011-9a185d46e35f']
-        #get_lb(test_list)
-        #get_lb_sub(test_list)
-        load_balancer_list(test_list)
+    test_list = get_subs()
+    #test_list = ['39f9beb3-6ab9-4b94-9011-9a185d46e35f']
+    #get_lb(test_list)
+    #get_lb_sub(test_list)
+    load_balancer_list(test_list)
 
 main()
