@@ -62,4 +62,5 @@ def main():
     #get_lb_sub(test_list)
     load_balancer_list(test_list)
 
-main()
+if __name__ == "__main__":
+    main()
